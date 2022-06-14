@@ -33,16 +33,14 @@ const Update = () => {
   }
 
   const handleChangeInput = (e) => {
-    console.log(e)
     setTitle(e.target.value)
-    console.log(title)
   }
 
   const handleChangeText = (e) => {
     setContent(e.target.value)
   }
 
-  const handleCancleClick = (e) => navigate(`/react02/ax/${_boardNo}`)
+  const handleCancleClick = (e) => navigate(`/ax/${_boardNo}`)
 
   const handleSubmitAction = (e) => {
     return axios
@@ -57,7 +55,7 @@ const Update = () => {
           }
         }
       ).then((resp) => {
-        navigate(`/react02/ax/${_boardNo}`)
+        navigate(`/ax/${_boardNo}`)
       })
   }
 

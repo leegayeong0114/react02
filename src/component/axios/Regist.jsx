@@ -18,7 +18,7 @@ const Register = () => {
     setContent(e.target.value)
   }
 
-  const handleCancleClick = (e) => navigate(`/react02/ax`)
+  const handleCancleClick = (e) => navigate(`/ax`)
 
   const handleSubmitAction = (e) => {
     axios
@@ -32,7 +32,7 @@ const Register = () => {
           }
         }
       ).then(resp => {
-        navigate(`/react02/ax/${resp.data}`)
+        navigate(`/ax/${resp.data}`)
       })
   }
 

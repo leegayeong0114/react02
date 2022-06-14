@@ -21,7 +21,7 @@ const List = (props) => {
   }
 
   const handleRegistClick = () => {
-    navigate('/react02/ax/regist')
+    navigate('/ax/regist')
   }
 
   return (
@@ -40,7 +40,7 @@ const List = (props) => {
             <tr key={i}>
               <td>{item.boardNo}</td> 
               <td>
-                <Link to={`/react02/ax/${item.boardNo}`}>
+                <Link to={`/ax/${item.boardNo}`}>
                   {item.boardTitle} 
                 </Link>
               </td>
