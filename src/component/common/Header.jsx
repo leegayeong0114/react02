@@ -9,7 +9,7 @@ const Header = () => {
 
   const navigate = useNavigate()
 
-  const handleNavClick = (target) => navigate(target) 
+  const handleNavClick = (target) => navigate(`/react02${target}`) 
 
   const toggleDarkMode = () => {
     setIsDark(!isDark)

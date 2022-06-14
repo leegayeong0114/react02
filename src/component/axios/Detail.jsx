@@ -29,8 +29,8 @@ const Detail = () => {
       })
   }
 
-  const handleListClick = () => navigate('/ax')
-  const handleUpdateClick = () => navigate(`/ax/update/${_boardNo}`)
+  const handleListClick = () => navigate('/react02/ax')
+  const handleUpdateClick = () => navigate(`/react02/ax/update/${_boardNo}`)
   
   const handleDeleteAction = (e) => {
     return axios
@@ -43,7 +43,7 @@ const Detail = () => {
           }
         }
       ).then(() => {
-        navigate(`/ax`)
+        navigate(`/react02/ax`)
       })
   }
 

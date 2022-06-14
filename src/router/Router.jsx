@@ -13,14 +13,14 @@ const Router = () => {
   return (
     <Container>
       <Routes>
-        <Route path='/' element={<Main></Main>}></Route>
-        <Route path='/pm' element={<PlusMinus></PlusMinus>}></Route>
-        <Route path='/lm' element={<LandMine></LandMine>}></Route>
-        <Route path='/ax' element={<List></List>}></Route>
-        <Route path='/ax/:boardNo' element={<Detail></Detail>}></Route>
-        <Route path='/ax/regist' element={<Regist></Regist>}></Route>
-        <Route path='/ax/update/:boardNo' element={<Update></Update>}></Route>
-        <Route path='*' element={<Error></Error>}></Route>
+        <Route path='/react02' element={<Main></Main>}></Route>
+        <Route path='/react02/pm' element={<PlusMinus></PlusMinus>}></Route>
+        <Route path='/react02/lm' element={<LandMine></LandMine>}></Route>
+        <Route path='/react02/ax' element={<List></List>}></Route>
+        <Route path='/react02/ax/:boardNo' element={<Detail></Detail>}></Route>
+        <Route path='/react02/ax/regist' element={<Regist></Regist>}></Route>
+        <Route path='/react02/ax/update/:boardNo' element={<Update></Update>}></Route>
+        <Route path='/react02/*' element={<Error></Error>}></Route>
       </Routes>
     </Container>
   )

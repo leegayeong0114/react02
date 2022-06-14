@@ -42,7 +42,7 @@ const Update = () => {
     setContent(e.target.value)
   }
 
-  const handleCancleClick = (e) => navigate(`/ax/${_boardNo}`)
+  const handleCancleClick = (e) => navigate(`/react02/ax/${_boardNo}`)
 
   const handleSubmitAction = (e) => {
     return axios
@@ -57,7 +57,7 @@ const Update = () => {
           }
         }
       ).then((resp) => {
-        navigate(`/ax/${_boardNo}`)
+        navigate(`/react02/ax/${_boardNo}`)
       })
   }
 
